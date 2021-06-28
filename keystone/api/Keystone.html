@@ -17,7 +17,7 @@
     catch(err) {
     }
 //-->
-var methods = {"i0":9,"i1":9,"i2":9,"i3":9,"i4":9,"i5":9,"i6":9,"i7":9,"i8":9,"i9":9,"i10":9,"i11":9};
+var methods = {"i0":9,"i1":9,"i2":9,"i3":9,"i4":9,"i5":9,"i6":9,"i7":9,"i8":9,"i9":9,"i10":9,"i11":9,"i12":9,"i13":9};
 var tabs = {65535:["t0","All Methods"],1:["t1","Static Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -176,63 +176,75 @@ extends java.lang.Object</pre>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>static void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../keystone/api/Keystone.html#disableKeystone--">disableKeystone</a></span>()</code>
+<div class="block">Disable Keystone if it isn't already</div>
+</td>
+</tr>
+<tr id="i2" class="altColor">
+<td class="colFirst"><code>static void</code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../keystone/api/Keystone.html#enableKeystone--">enableKeystone</a></span>()</code>
+<div class="block">Enable Keystone if it isn't already</div>
+</td>
+</tr>
+<tr id="i3" class="rowColor">
+<td class="colFirst"><code>static void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../keystone/api/Keystone.html#filterException-keystone.api.filters.KeystoneFilter-java.lang.Exception-">filterException</a></span>(<a href="../../keystone/api/filters/KeystoneFilter.html" title="class in keystone.api.filters">KeystoneFilter</a>&nbsp;filter,
                java.lang.Exception&nbsp;e)</code>&nbsp;</td>
 </tr>
-<tr id="i2" class="altColor">
+<tr id="i4" class="altColor">
 <td class="colFirst"><code>static void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../keystone/api/Keystone.html#forEachModule-java.util.function.Consumer-">forEachModule</a></span>(java.util.function.Consumer&lt;<a href="../../keystone/core/modules/IKeystoneModule.html" title="interface in keystone.core.modules">IKeystoneModule</a>&gt;&nbsp;consumer)</code>
 <div class="block">Run a function on every <a href="../../keystone/core/modules/IKeystoneModule.html" title="interface in keystone.core.modules"><code>Module</code></a> in the registry</div>
 </td>
 </tr>
-<tr id="i3" class="rowColor">
+<tr id="i5" class="rowColor">
 <td class="colFirst"><code>static &lt;T extends <a href="../../keystone/core/modules/IKeystoneModule.html" title="interface in keystone.core.modules">IKeystoneModule</a>&gt;<br>T</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../keystone/api/Keystone.html#getModule-java.lang.Class-">getModule</a></span>(java.lang.Class&lt;T&gt;&nbsp;clazz)</code>
 <div class="block">Get a registered <a href="../../keystone/core/modules/IKeystoneModule.html" title="interface in keystone.core.modules"><code>Module</code></a> by class</div>
 </td>
 </tr>
-<tr id="i4" class="altColor">
+<tr id="i6" class="altColor">
 <td class="colFirst"><code>static void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../keystone/api/Keystone.html#init--">init</a></span>()</code>
 <div class="block">INTERNAL USE ONLY, DO NOT USE IN FILTERS</div>
 </td>
 </tr>
-<tr id="i5" class="rowColor">
+<tr id="i7" class="rowColor">
 <td class="colFirst"><code>static boolean</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../keystone/api/Keystone.html#isActive--">isActive</a></span>()</code>&nbsp;</td>
 </tr>
-<tr id="i6" class="altColor">
+<tr id="i8" class="altColor">
 <td class="colFirst"><code>static void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../keystone/api/Keystone.html#postInit--">postInit</a></span>()</code>
 <div class="block">INTERNAL USE ONLY, DO NOT USE IN FILTERS</div>
 </td>
 </tr>
-<tr id="i7" class="rowColor">
+<tr id="i9" class="rowColor">
 <td class="colFirst"><code>static void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../keystone/api/Keystone.html#registerModule-keystone.core.modules.IKeystoneModule-">registerModule</a></span>(<a href="../../keystone/core/modules/IKeystoneModule.html" title="interface in keystone.core.modules">IKeystoneModule</a>&nbsp;module)</code>
 <div class="block">Register a new <a href="../../keystone/core/modules/IKeystoneModule.html" title="interface in keystone.core.modules"><code>Module</code></a></div>
 </td>
 </tr>
-<tr id="i8" class="altColor">
+<tr id="i10" class="altColor">
 <td class="colFirst"><code>static void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../keystone/api/Keystone.html#runOnMainThread-int-java.lang.Runnable-">runOnMainThread</a></span>(int&nbsp;delay,
                java.lang.Runnable&nbsp;runnable)</code>
 <div class="block">Schedule a <code>Runnable</code> to run on the server thread after a given delay</div>
 </td>
 </tr>
-<tr id="i9" class="rowColor">
+<tr id="i11" class="rowColor">
 <td class="colFirst"><code>static void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../keystone/api/Keystone.html#runOnMainThread-java.lang.Runnable-">runOnMainThread</a></span>(java.lang.Runnable&nbsp;runnable)</code>
 <div class="block">Schedule a <code>Runnable</code> to run on the server thread next tick</div>
 </td>
 </tr>
-<tr id="i10" class="altColor">
+<tr id="i12" class="altColor">
 <td class="colFirst"><code>static void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../keystone/api/Keystone.html#runTool-keystone.api.tools.interfaces.IKeystoneTool-">runTool</a></span>(<a href="../../keystone/api/tools/interfaces/IKeystoneTool.html" title="interface in keystone.api.tools.interfaces">IKeystoneTool</a>&nbsp;tool)</code>
 <div class="block">Run an <a href="../../keystone/api/tools/interfaces/IKeystoneTool.html" title="interface in keystone.api.tools.interfaces"><code>IKeystoneTool</code></a> on the current selection boxes</div>
 </td>
 </tr>
-<tr id="i11" class="rowColor">
+<tr id="i13" class="rowColor">
 <td class="colFirst"><code>static void</code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../keystone/api/Keystone.html#toggleKeystone--">toggleKeystone</a></span>()</code>
 <div class="block">Toggle whether Keystone is enabled</div>
@@ -311,6 +323,26 @@ extends java.lang.Object</pre>
 <h4>toggleKeystone</h4>
 <pre>public static&nbsp;void&nbsp;toggleKeystone()</pre>
 <div class="block">Toggle whether Keystone is enabled</div>
+</li>
+</ul>
+<a name="enableKeystone--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>enableKeystone</h4>
+<pre>public static&nbsp;void&nbsp;enableKeystone()</pre>
+<div class="block">Enable Keystone if it isn't already</div>
+</li>
+</ul>
+<a name="disableKeystone--">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>disableKeystone</h4>
+<pre>public static&nbsp;void&nbsp;disableKeystone()</pre>
+<div class="block">Disable Keystone if it isn't already</div>
 </li>
 </ul>
 <a name="isActive--">
