@@ -2,10 +2,13 @@ keystone.api
 keystone.api.enums
 keystone.api.filters
 keystone.api.tools
-keystone.api.tools.interfaces
 keystone.api.utils
 keystone.api.variables
 keystone.api.wrappers
+keystone.api.wrappers.blocks
+keystone.api.wrappers.coordinates
+keystone.api.wrappers.entities
+keystone.api.wrappers.nbt
 keystone.core
 keystone.core.events
 keystone.core.gui
@@ -33,6 +36,7 @@ keystone.core.modules.brush.operations
 keystone.core.modules.brush.providers
 keystone.core.modules.brush.renderers
 keystone.core.modules.clipboard
+keystone.core.modules.entities
 keystone.core.modules.filter
 keystone.core.modules.filter.providers
 keystone.core.modules.ghost_blocks
