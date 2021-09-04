@@ -16,9 +16,10 @@ keystone.core.gui.screens
 keystone.core.gui.screens.block_selection
 keystone.core.gui.screens.brush
 keystone.core.gui.screens.file_browser
+keystone.core.gui.screens.fill
 keystone.core.gui.screens.filters
 keystone.core.gui.screens.hotbar
-keystone.core.gui.screens.schematic_import
+keystone.core.gui.screens.schematics
 keystone.core.gui.screens.selection
 keystone.core.gui.widgets
 keystone.core.gui.widgets.buttons
@@ -29,14 +30,12 @@ keystone.core.keybinds
 keystone.core.math
 keystone.core.mixins
 keystone.core.modules
-keystone.core.modules.blocks
 keystone.core.modules.brush
 keystone.core.modules.brush.boxes
 keystone.core.modules.brush.operations
 keystone.core.modules.brush.providers
 keystone.core.modules.brush.renderers
 keystone.core.modules.clipboard
-keystone.core.modules.entities
 keystone.core.modules.filter
 keystone.core.modules.filter.providers
 keystone.core.modules.ghost_blocks
@@ -51,7 +50,9 @@ keystone.core.modules.selection
 keystone.core.modules.selection.boxes
 keystone.core.modules.selection.providers
 keystone.core.modules.selection.renderers
+keystone.core.modules.world
 keystone.core.modules.world_cache
+keystone.core.registries
 keystone.core.renderer.blocks
 keystone.core.renderer.blocks.buffer
 keystone.core.renderer.blocks.world
@@ -63,5 +64,6 @@ keystone.core.renderer.client.renderers
 keystone.core.renderer.common
 keystone.core.renderer.common.models
 keystone.core.schematic
+keystone.core.schematic.extensions
 keystone.core.schematic.formats
 keystone.core.utils
