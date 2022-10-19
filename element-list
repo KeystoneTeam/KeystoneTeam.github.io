@@ -53,6 +53,7 @@ keystone.core.modules.selection
 keystone.core.modules.session
 keystone.core.modules.world
 keystone.core.modules.world_cache
+keystone.core.modules.world.biomes
 keystone.core.registries
 keystone.core.renderer
 keystone.core.renderer.blocks
